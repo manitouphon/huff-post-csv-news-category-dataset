@@ -8,12 +8,12 @@ with open('data.json',encoding='utf-8') as inputfile:
 
 #Uncomment for simplified version
 
-# df.pop("authors")
-# df.pop("link")
-# df.pop("date")
+df.pop("authors")
+df.pop("link")
+df.pop("date")
 # df["headline"] = df["headline"] + ". " + df["short_description"]
 # df["description"] = df["headline"]
-# df.pop("short_description")
+df.pop("short_description")
 # df.pop("description")
 
 df.to_csv('data.csv', encoding='utf-8', index=False)
