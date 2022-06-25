@@ -169,4 +169,4 @@ print("Total Numbers of Categories: ", df["category"].nunique(),"\n", df["catego
 
 
 
-df.to_csv('data.csv', encoding='utf-8', index=False)
+df.to_csv('simplified_data.csv', encoding='utf-8', index=False)
